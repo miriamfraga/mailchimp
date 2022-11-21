@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Fragment+Mono&family=Lora&family=Roboto&family=Sono&display=swap');
+
+
+html{
+     width: 1000px;  
+     margin: 0 auto;
+     font-family: sans-serif;
+
+}
+
+header{
+    position: relative;
+    display: inline-block;
+    border: 100px;
+    margin-left: 350px;
+}
+a{
+    text-decoration: none;
+    color:  rgb(71, 142, 175);;
+}
+ form{
+   position: relative;
+   width: 650px;
+   margin-left: 350px;
+   bottom: 200px;
+ }
+
+ .fieldset__list{
+   left:350px;
+   display: inline-flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   width: 600px;
+   height: 80px;
+   padding: 15px;
+   align-items: stretch;
+   list-style-type: disc;
+
+ }
+ input{
+    display: inline-block;
+    width: 500px;
+    height: 50px;
+    margin-top:10px;
+    margin-bottom: 10px;
+
+ }
+ 
+ul li::marker{
+ color: rgb(71, 142, 175);
+ font-size: 18px;
+}
+ 
+
+button{
+   position: relative;
+   left: 350px;
+   bottom: 200px;
+   width: 100px;
+   height: 40px;
+   padding: 5px;
+   border-color: 2px solid rgb(197, 191, 191);
+   background-color: white;
+}
+footer{
+ position: relative;
+ left:600px;
+ bottom:300px;
+ width: 250px;
+}
+.checkbox{
+  position: relative;
+  right:60px;
+  top: 55px;
+  width: 30px;
+  height: 30px;
+}
+.footer__title{
+    display:inline-block;
+    width: 500px;
+    position: relative;
+    right: 260px;
+
+}
